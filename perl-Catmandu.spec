@@ -127,7 +127,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%doc benchmark Changes cpanfile dist.ini LICENSE META.json README
+%doc benchmark Changes cpanfile dist.ini README.md
 %{perl_vendorlib}/*
 %{_bindir}/catmandu
 %{_mandir}/man3/*
