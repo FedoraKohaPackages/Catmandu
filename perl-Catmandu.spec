@@ -125,6 +125,7 @@ find $RPM_BUILD_ROOT -depth -type d -exec rmdir {} 2>/dev/null \;
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+
 %files
 %defattr(-,root,root,-)
 %doc benchmark Changes cpanfile dist.ini README.md
