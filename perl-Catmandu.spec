@@ -59,6 +59,7 @@ BuildRequires:  perl(Unicode::Normalize)
 BuildRequires:  perl(URI)
 BuildRequires:  perl(URI::Template) >= 0.22
 BuildRequires:  perl(YAML::XS) >= 0.41
+BuildRequires:  perl(Devel::Peek)
 Requires:       perl(Any::URI::Escape)
 Requires:       perl(App::Cmd) >= 0.33
 Requires:       perl(asa)
